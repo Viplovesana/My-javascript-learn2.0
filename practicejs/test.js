@@ -54,4 +54,9 @@
 // 0 =>false
 // "" =>false
 // "viplove" =>true
-//............................................................
+//............................STRING CONVERSSIONS........................
+// let someNumber = 7
+
+// let stringNumber = String(someNumber)
+// console.log(stringNumber)
+// console.log( typeof stringNumber)
