@@ -99,4 +99,32 @@
 
 //...........................................................................................
 
+//...DATATYPE_CHEAK....................
 
+
+// const isNUmber = 123
+// console.log(isNUmber)
+
+// const id = Symbol("@#")
+// const anotherId = Symbol("@#")
+// console.log(id == anotherId)
+
+// let bigNumber = 12345678765n
+// console.log(bigNumber)
+
+//Non datatype (refrence type)
+
+//Array ,Object ,Function
+
+const heros = ["shaktiman","naajraj","doga"];//ARRAY
+let myObj = {
+    name: "viplove",
+    age: 23,
+}//OBJECT
+
+const myFunction = function(){
+      console.log("Hello world");
+}//FUNCTION
+console.log(typeof myFunction)
+console.log(typeof heros)
+console.log(typeof myObj)
