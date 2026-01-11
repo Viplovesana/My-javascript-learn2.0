@@ -26,12 +26,12 @@
 // }
 //  console.log("inside",i); 
 
+// CONVERSSION OF DATATYPE....................................................................
 
-
-// ...................CONVERSSIONS AND OPERATIONS...........................
+// ...................CONVERSSIONS...........................
 //.............................NUMBER COnverssion........................
-//let score ="viplove"
-// const {score} = req.body
+// let score ="viplove"
+// // const {score} = req.body
 
 // console.log(typeof score);
 // console.log(typeof (score));
@@ -60,3 +60,43 @@
 // let stringNumber = String(someNumber)
 // console.log(stringNumber)
 // console.log( typeof stringNumber)
+
+//OPERATIONS......................................................
+
+//practise......................
+
+// let noune = "abc"
+// console.log(typeof noune)
+// console.log(typeof (noune))
+
+// let convertInNumber = Number(noune)
+// console.log(convertInNumber)
+// console.log(typeof convertInNumber)
+
+//OPERATIONS..................................................................
+
+// let value = 3
+// let negvalue = -value
+// console.log(negvalue)
+
+// let str1 = "viplove"
+// let str2 = "   sana"
+// let str3 = str1+str2
+// console.log(str3)
+
+// console.log("2">1)
+// console.log("2"==1)
+//...........................................................................................
+// operators for null value
+// console.log(null == 0)
+// console.log(null > 0)      
+// console.log(null >= 0)
+//WE NEVER USE THIS TYPES OF CODE THIS IS NOT A GOOD PRACTICE...........
+//..=== STRICT check
+// console.log(undefined >= 0)
+// console.log(undefined < 0)
+// console.log(undefined > 0)
+
+//...........................................................................................
+
+
