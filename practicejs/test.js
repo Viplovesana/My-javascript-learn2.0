@@ -116,15 +116,46 @@
 
 //Array ,Object ,Function
 
-const heros = ["shaktiman","naajraj","doga"];//ARRAY
-let myObj = {
-    name: "viplove",
-    age: 23,
-}//OBJECT
+// const heros = ["shaktiman","naajraj","doga"];//ARRAY
+// let myObj = {
+//     name: "viplove",
+//     age: 23,
+// }//OBJECT
 
-const myFunction = function(){
-      console.log("Hello world");
-}//FUNCTION
-console.log(typeof myFunction)
-console.log(typeof heros)
-console.log(typeof myObj)
+// const myFunction = function(){
+//       console.log("Hello world");
+// }//FUNCTION
+// console.log(typeof myFunction)
+// console.log(typeof heros)
+// console.log(typeof myObj)
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//there are two types of memory's are there in javascript
+
+//1 STACK memory(Primitive) in primitive datatypes uses the Stack Memory
+//2 HEAp memory(Non-primritive) in non-primitive datatypes uses the Heap Memory
+
+//EXAMPLE of stact memory
+// let myInstaId = "viplovesana"
+
+// let myAccount = myInstaId
+
+// myAccount = "anotheraname"
+
+// console.log(myInstaId)
+// console.log(myAccount) // have the changed inn the copy not in actual value or data
+
+//EXAMPLE of heap memory
+let userOne = {
+    email:"davisfennylove@gmail.com",
+    bankAcc:"SBI"
+}
+let userTwo = userOne
+userTwo.email = "harshmaheshwari.com"
+// userTwo = {
+//     email:"harshmaheshwari@gmail.com",
+//     bankAcc:"HDFC"
+// }
+console.log(userOne.email)
+console.log(userTwo.email)
