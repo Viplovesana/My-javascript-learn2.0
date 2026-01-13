@@ -147,15 +147,15 @@
 // console.log(myAccount) // have the changed inn the copy not in actual value or data
 
 //EXAMPLE of heap memory
-let userOne = {
-    email:"davisfennylove@gmail.com",
-    bankAcc:"SBI"
-}
-let userTwo = userOne
-userTwo.email = "harshmaheshwari.com"
-// userTwo = {
-//     email:"harshmaheshwari@gmail.com",
-//     bankAcc:"HDFC"
+// let userOne = {
+//     email:"davisfennylove@gmail.com",
+//     bankAcc:"SBI"
 // }
-console.log(userOne.email)
-console.log(userTwo.email)
+// let userTwo = userOne
+// userTwo.email = "harshmaheshwari.com"
+// // userTwo = {
+// //     email:"harshmaheshwari@gmail.com",
+// //     bankAcc:"HDFC"
+// // }
+// console.log(userOne.email)
+// console.log(userTwo.email)
