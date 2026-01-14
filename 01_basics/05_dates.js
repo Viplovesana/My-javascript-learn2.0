@@ -17,12 +17,13 @@
 // console.log(createMyDate.getTime())
 // console.log(Math.floor(Date.now()/1000));
 
-let newDate = new Date()
-console.log(newDate.getMonth()+1)
-console.log(newDate.getDay())
+// let newDate = new Date()
+// console.log(newDate.getMonth()+1)
+// console.log(newDate.getDay())
 
-newDate.toLocaleString('default'{
-    weekday: "long",
-})
+// newDate.toLocaleString('default'{
+//     weekday: "long",
+// })
 
-
+// let todayDate = new Date()
+// console.log(todayDate.toLocaleDateString())
