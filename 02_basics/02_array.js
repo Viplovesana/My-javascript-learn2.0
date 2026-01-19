@@ -7,8 +7,8 @@ const dc_heros = ["Flash","superman","batman"]
 // console.log(marvel_heros)
 // console.log(marvel_heros[3])
 
-// const allHeros = marvel_heros.concat(dc_heros)
-// console.log(allHeros)
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros)
 
 //Spread Method................for concatinate
 // const AllNewHeros = [ ...marvel_heros, ...dc_heros]
