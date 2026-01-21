@@ -90,3 +90,17 @@ console.log(course.courseInstructor)
 
 const {courseName : cName}=course
 console.log(cName)
+
+//    APIs........................................................
+
+{
+    "name":"viplove",
+    "city":"Bhopal",
+    "email":"viplovesana90@gmail.com"
+}
+
+[
+    {},
+    {},
+    {}
+]
