@@ -1,11 +1,11 @@
 
 
 // const userObject = new Object()  //single ton object
-const tinderObject = {}
+// const tinderObject = {}
 
-tinderObject.id = "123abc"
-tinderObject.name = "davidfennylove"
-tinderObject.inlogged = false
+// tinderObject.id = "123abc"
+// tinderObject.name = "davidfennylove"
+// tinderObject.inlogged = false
 
 // console.log(userObject);
 //......................................................................................
@@ -54,19 +54,39 @@ tinderObject.inlogged = false
 
 // console.log(tinderObject)
 
-const userData = [
-    {
-        name:"avees",
-        email:"avees@123gmail.com"
-    },
-     {
-        name:"vipin",
-        email:"vipin@123gmail.com"
-    },
-     {
-        name:"charuu",
-        email:"charuu@123gmail.com"
-    }
-]
-console.log(userData[1].name)
-console.log(userData[2].email)
+// const userData = [
+//     {
+//         name:"avees",
+//         email:"avees@123gmail.com"
+//     },
+//      {
+//         name:"vipin",
+//         email:"vipin@123gmail.com"
+//     },
+//      {
+//         name:"charuu",
+//         email:"charuu@123gmail.com"
+//     }
+// ]
+// console.log(userData[1].name)
+// console.log(userData[2].email)
+
+// console.log(tinderObject)
+// console.log(Object.keys(tinderObject))
+// console.log(Object.values(tinderObject))
+// console.log(Object.entries(tinderObject))
+// console.log(tinderObject.hasOwnProperty("id"))
+
+
+
+// .......................DeStructuring Method.......................................
+
+const course = {
+    courseName:"javaScript",
+    price:999,
+    courseInstructor:"hiteshBhaiye"
+};
+console.log(course.courseInstructor)
+
+const {courseName : cName}=course
+console.log(cName)
