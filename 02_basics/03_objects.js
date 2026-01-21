@@ -53,19 +53,32 @@
 // console.log(jsUser.greeting());
 // console.log(jsUser.greetingTwo());
 
-const myJs = {
-   name:"viplove Sana",
-   city:"bhopal",
-   Age:"23"
-}
-myJs.greeting = function(){
-    console.log("hey viplove you'r learning JS")
-}
-myJs.greetingTwo = function(){
-    console.log(`hey my name is ${this.name}`)
-}
-console.log(myJs.greeting());
-console.log(myJs.greetingTwo());
+// const myJs = {
+//    name:"viplove Sana",
+//    city:"bhopal",
+//    Age:"23"
+// }
+// myJs.greeting = function(){
+//     console.log("hey viplove you'r learning JS")
+// }
+// myJs.greetingTwo = function(){
+//     console.log(`hey my name is ${this.name}`)
+// }
+// console.log(myJs.greeting());
+// console.log(myJs.greetingTwo());
+
+
+// practice this concept.....................................................
+
+// const myScope = {
+//     company:"netlink",
+//     department:"frontend-Dev"
+// };
+// myScope.greetingFunc = function(){
+//     console.log(`my aim is to take entry on ${this.company} as a ${this.department}`)
+// };
+// console.log(myScope.greetingFunc())
+
 
 
 
