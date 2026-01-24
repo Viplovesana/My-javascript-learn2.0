@@ -65,14 +65,14 @@ function numberGame(num1, num2){
 }
 const myNumber =  numberGame(20, 40)
 // console.log("mynumber is :", myNumber)
-function loginUsermssg(username = "sam"){
-    if(!username){
-        console.log("Are you doing javascript, if you are then do hardwork")    
-    }          
-    return `${username} just logged in`
-};
+// function loginUsermssg(username = "sam"){
+//     if(!username){
+//         console.log("Are you doing javascript, if you are then do hardwork")    
+//     }          
+//     return `${username} just logged in`
+// };
 // const myLogin = loginUsermssg("viplove")
-const myLogin = loginUsermssg("viplove")
+// const myLogin = loginUsermssg("viplove")
 // console.log(myLogin);
 
 
@@ -91,9 +91,19 @@ const dataIn = {
 function objectAccess(dataInside){
     console.log(`i am ${dataInside.username} and my price is ${dataInside.price}`)
 }
-objectAccess(dataIn)
-objectAccess({
-    username:"soniya",
-    price:200
-})
+// objectAccess(dataIn)
+// objectAccess({
+//     username:"soniya",
+//     price:200
+// })
+
+// ......Array inside the function..................................
+
+const myNewArray = [100, 200, 300, 400, 500, 600]
+
+function returnSecondValue(getArray){ 
+    return getArray[2]
+}
+// console.log(returnSecondValue(myNewArray))
+// console.log(returnSecondValue([98, 67, 892, 13, 63]))
 
