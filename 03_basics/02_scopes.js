@@ -35,4 +35,15 @@ if(true){
     // console.log(frndname)
 }
 // console.log(name)
-   
+
+
+//   intresting.........................................
+console.log(addOne(5))  
+function addOne(num){
+    return num + 1
+}
+addTwo(5)
+const addTwo = function(num){      // this is the another type of funtion which is hold by the variable which is also called expression 
+    return num + 2
+}
+//......................................................
