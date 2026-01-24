@@ -81,15 +81,15 @@
 
 // .......................DeStructuring Method.......................................
 
-const course = {
-    courseName:"javaScript",
-    price:999,
-    courseInstructor:"hiteshBhaiye"
-};
-console.log(course.courseInstructor)
+// const course = {
+//     courseName:"javaScript",
+//     price:999,
+//     courseInstructor:"hiteshBhaiye"
+// };
+// console.log(course.courseInstructor)
 
-const {courseName : cName}=course
-console.log(cName)
+// const {courseName : cName}=course
+// console.log(cName)
 
 //    APIs........................................................
 
@@ -99,8 +99,18 @@ console.log(cName)
 //     "email":"viplovesana90@gmail.com"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+
+//destructuring practice ..........................
+
+// const myName = {
+//     thisname : "devidfennylove",
+//     email : "devid123@gmail.com"
+// }
+// const {email:myEmail} = myName
+// console.log(myEmail)
