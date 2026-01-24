@@ -65,15 +65,35 @@ function numberGame(num1, num2){
 }
 const myNumber =  numberGame(20, 40)
 // console.log("mynumber is :", myNumber)
-
-
 function loginUsermssg(username = "sam"){
     if(!username){
         console.log("Are you doing javascript, if you are then do hardwork")    
-    }
-   
+    }          
     return `${username} just logged in`
 };
 // const myLogin = loginUsermssg("viplove")
 const myLogin = loginUsermssg("viplove")
-console.log(myLogin);
+// console.log(myLogin);
+
+
+function calculatecartNo(val1, val2, ...numS){
+    return numS
+}
+// console.log(calculatecartNo(100, 200, 400, 600,1000))
+
+
+//................. object inside the functionn
+
+const dataIn = {
+    username:"viplove",
+    price:999
+}
+function objectAccess(dataInside){
+    console.log(`i am ${dataInside.username} and my price is ${dataInside.price}`)
+}
+objectAccess(dataIn)
+objectAccess({
+    username:"soniya",
+    price:200
+})
+
