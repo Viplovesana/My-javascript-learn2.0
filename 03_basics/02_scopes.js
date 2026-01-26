@@ -18,7 +18,7 @@ function primaryFun(){
         const mark2 = "roddy"
         console.log(mark1)
     };
-    // console.log(mark2) // not execcesble..............................
+    // console.log(mark2) // not execcesble.....................
 
     secondaryFun()
 };
@@ -38,12 +38,24 @@ if(true){
 
 
 //   intresting.........................................
-console.log(addOne(5))  
+// console.log(addOne(5))  
 function addOne(num){
     return num + 1
 }
-addTwo(5)
+// addTwo(5)
 const addTwo = function(num){      // this is the another type of funtion which is hold by the variable which is also called expression 
     return num + 2
 }
 //......................................................
+
+
+// .......variable expression...........................
+
+console.log(userTwo(7,10))
+function userTwo(a, b){
+    return a+ b
+} 
+console.log(myuser(4,7))
+const myuser = function(a, b){
+    return a+b
+}

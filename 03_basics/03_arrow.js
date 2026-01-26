@@ -50,3 +50,9 @@ const chai = () => {
 const addValue = (num1, num2) => ({usernamee:"viplove"}) //object return  .....in ( )
 
 console.log(addValue(23, 67))
+
+
+// ...practise ................................
+const data = [10, 20, 30, 40, 50, 60]
+const mypractice = (myData) =>{return myData[4]}
+console.log(mypractice(data))
