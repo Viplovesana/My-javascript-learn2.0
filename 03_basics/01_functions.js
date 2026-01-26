@@ -91,7 +91,7 @@ const dataIn = {
 function objectAccess(dataInside){
     console.log(`i am ${dataInside.username} and my price is ${dataInside.price}`)
 }
-// objectAccess(dataIn)
+objectAccess(dataIn)
 // objectAccess({
 //     username:"soniya",
 //     price:200

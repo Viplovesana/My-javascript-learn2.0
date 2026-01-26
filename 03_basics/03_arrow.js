@@ -55,4 +55,4 @@ console.log(addValue(23, 67))
 // ...practise ................................
 const data = [10, 20, 30, 40, 50, 60]
 const mypractice = (myData) =>{return myData[4]}
-console.log(mypractice(data))
+// console.log(mypractice(data))
