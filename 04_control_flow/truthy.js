@@ -35,9 +35,20 @@ if (Object.keys(checkObject).length === 0) {
 
 let val1;
 // val1 = 5 ?? 10
-val1 = null ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 16
+val1 = null ?? 10 ?? 16
+
 console.log(val1);
 
+
+// Terniaryt Operator...........................
+
+// condition ? true : false
+
+const iceTea = 100
+
+iceTea <=80 ? console.log("less than 80") : console.log("more than 80")
 
 
 
