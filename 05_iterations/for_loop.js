@@ -55,3 +55,31 @@ for (let index = 1; index <= 10; index++) {
     }
     // console.log(`value of i is ${index}`);   
 }
+
+for (let i = 0; i <= 10; i++) {
+//    console.log(`outer loop of i is ${i}`);
+    for (let j = 0; j <= 10; j++) {
+    //    console.log(i , "*" , j , "=", i*j);
+    }   
+}
+
+for (let i = 0; i <= 10; i++) {
+    console.log("2" +"*"+ i +"="+i*2);
+}
+
+for (let index = 0; index <=10; index++) {
+    if (index == 5) {
+        console.log("five is very danger");
+        break
+    }
+    const element = index;
+    console.log(index);   
+}
+for (let index = 0; index <=10; index++) {
+    if (index == 5) {
+        console.log("five is very danger");
+        continue
+    }
+    const element = index;
+    console.log(index);   
+}

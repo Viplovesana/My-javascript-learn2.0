@@ -17,3 +17,14 @@ while (i < myArray.length) {
 //     const element = myArray[i];
 //     console.log(element);   
 // }
+
+let ii = 0
+while (ii <= 25 ){
+  console.log(`the outer lopp is ${ii*2}`);
+  ii++;
+  let jj = 0
+  while (jj<=25) {
+    console.log(ii,"*",jj,"=",ii*jj);
+  jj++  
+  } 
+}
