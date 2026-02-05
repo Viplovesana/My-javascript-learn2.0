@@ -122,8 +122,11 @@ const books = [
         bookName:"book six",genre:"ferrtail",publish:"1976",edition:"1948"
     }
 ]
-const myBooks = books.filter((obj)=>{
+let myBooks = books.filter((obj)=>{
        return obj.genre == "fiction"
+})
+myBooks = books.filter((obj)=>{
+       return obj.publish >= 1965  && obj.genre === "horror"
 })
 console.log(myBooks);
 
