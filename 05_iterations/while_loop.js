@@ -20,11 +20,31 @@ while (i < myArray.length) {
 
 let ii = 0
 while (ii <= 25 ){
-  console.log(`the outer lopp is ${ii*2}`);
+  // console.log(`the outer lopp is ${ii*2}`);
   ii++;
   let jj = 0
   while (jj<=25) {
-    console.log(ii,"*",jj,"=",ii*jj);
+    // console.log(ii,"*",jj,"=",ii*jj);
   jj++  
   } 
 }
+let myNum = 0
+// do {
+//   console.log(`my no is ${myNum}`);
+  
+// } while (myNum<=10);
+let heros = ["spermam","shaktiman","krish"]
+let Num = 0
+while (Num < heros.length) {
+  // console.log(heros[Num]);
+  Num++
+}
+// for of----------------------------------------
+const greeting = "Hello World!"
+for (const greet of greeting) {
+  console.log(`Each char iis ${greet}`);
+  
+}
+
+
+
